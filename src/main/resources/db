@@ -1,0 +1,19 @@
+
+
+SQL> connect system/manager
+Connected.
+
+SQL> connect as sysdba
+Enter user-name: dba
+Enter password:abc
+Connected.
+
+SQL> create user SSNPortal identified by SSN;
+User created.
+
+SQL> grant connect, resource to SSNPortal;
+Grant succeeded.
+
+#Sequence
+
+
